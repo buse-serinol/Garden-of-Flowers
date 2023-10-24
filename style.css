@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    background-blend-mode: multiply;
+    height: 200vh;
+    background-image: url(img/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lora', serif
+}
+
+/* navbar start */
+.market-name {
+    color: rgb(107, 54, 75);
+    margin-left: 80px;
+    font-size: 35px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.bi {
+    font-size: 25px;
+    padding-left: 10px;
+    color: rgb(66, 10, 50);
+}
+
+nav {
+
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nav-content {
+    text-align: right;
+    flex: 1;
+}
+
+.nav-content ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    letter-spacing: 1px;
+}
+
+.nav-content .anasayfa {
+    color: white;
+
+}
+
+
+.nav-content ul li a {
+    text-decoration: none;
+    color: rgb(107, 54, 75);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+.nav-content ul li a i {
+    font-size: 20px;
+    color: rgb(107, 54, 75);
+}
+
+.nav-content ul li a:hover {
+
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    opacity: .7;
+    text-decoration: underline;
+
+}
+
+/* navbar end */
+
+/* section start */
+
+.bi.bi-list {
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(212, 193, 158);
+    padding-left: 20px;
+
+
+
+}
+
+.bi.bi-list:hover {
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.cicek-turleri {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 10;
+    cursor: pointer;
+}
+
+.cicek-turleri img:hover {
+    transform: translateX(10px);
+    opacity: 0.7;
+
+}
+
+.cicek-turleri h2 {
+    color: rgb(77, 53, 13);
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cicek-turleri h2:hover {
+
+    transform: scale(1.2);
+    color: white;
+
+}
+
+.cicek-turleri h2 a {
+    color: rgb(77, 53, 13);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+
+.cicek-turleri h2 a:hover {
+
+    transform: scale(1.1);
+    color: white;
+
+}
+
+.saksi-cicegi img {
+    border-radius: 50px;
+    width: 230px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.buket img {
+    border-radius: 50px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+}
+
+
+
+.guller img {
+    border-radius: 50px;
+    width: 250px;
+    height: 260px;
+    object-fit: cover;
+
+}
+
+.zambak img {
+    border-radius: 50px;
+    width: 250px;
+    height: 260px;
+    object-fit: cover;
+}
+
+/* section end */
+
+/* section two start */
+
+.cicek-turleri-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 10;
+    cursor: pointer;
+}
+
+.cicek-turleri-2 div:hover {
+    transform: translateX(10px);
+    opacity: 0.7;
+
+}
+
+.cicek-turleri-2 h2 {
+    color: rgb(77, 53, 13);
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.cicek-turleri-2 h2:hover {
+
+    transform: scale(1.2);
+    color: white;
+
+}
+
+.papatya img {
+    border-radius: 50px;
+    width: 230px;
+    height: 260px;
+}
+
+.hezaren img {
+    border-radius: 50px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.sunflower img {
+    border-radius: 50px;
+    width: 250px;
+    height: 260px;
+    object-fit: cover;
+
+}
+
+.ortanca img {
+    border-radius: 50px;
+    width: 250px;
+    height: 260px;
+    object-fit: cover;
+}
+
+/* section two end */
+
+/* footer */
+.border {
+    border-bottom: 1px solid;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.info-card {
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.info-card h1 {
+    color: rgb(57, 40, 10);
+}
+
+.info-card a {
+    margin-top: 20px;
+    color: rgb(77, 53, 13);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.info-card a:hover {
+    color: wheat;
+}
+
+.contact-card {
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.contact-card h1 {
+    color: rgb(57, 40, 10);
+}
+
+.contact-card a {
+    margin-top: 20px;
+    color: rgb(77, 53, 13);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.contact-card a:hover {
+    color: wheat;
+}
+
+.copy {
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
